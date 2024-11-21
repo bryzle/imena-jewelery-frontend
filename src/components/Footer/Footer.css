@@ -1,0 +1,26 @@
+.Footer__section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  background-color: #212121;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.Footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 20px;
+}
+
+.Footer__header {
+  margin: 0;
+  padding: 0;
+}
+
+.Footer__text {
+  margin: 0;
+  padding: 0;
+}
