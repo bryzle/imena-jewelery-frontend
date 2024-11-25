@@ -11,7 +11,7 @@ function Header() {
           <Link to="/about" className="header__menu">
             About Us
           </Link>
-          <Link to="/product" className="header__menu">
+          <Link to="/products" className="header__menu">
             Products
           </Link>
         </div>
