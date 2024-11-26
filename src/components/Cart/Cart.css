@@ -1,0 +1,12 @@
+.cart__page{
+    height: 1000px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.cart__header{
+    font-size: 3rem;
+
+}
