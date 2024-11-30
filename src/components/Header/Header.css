@@ -1,13 +1,15 @@
 .header {
   display: flex;
   position: fixed;
+  max-width:759px;
   height: 77px;
   padding: 0;
   align-items: center;
   border-bottom: 1px solid #d7d7d7;
   background-color: #fff;
 }
-.container {
+.header__nav-container{
+  width:100%;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-areas: "left logo right";
@@ -45,4 +47,5 @@
 .header__menu {
   font-size: 20px;
   color: black;
+  list-style-type: none;
 }

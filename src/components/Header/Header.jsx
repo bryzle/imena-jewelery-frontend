@@ -1,32 +1,32 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
-      <div className="container">
-        <div className="header__container-left">
-          <Link to="/about" className="header__menu">
-            About Us
+      <nav className="header__nav-container">
+        <ul className="header__container-left">
+          <Link to="/about" >
+            <li className="header__menu">About Us</li>
           </Link>
-          <Link to="/products" className="header__menu">
-            Products
+          <Link to="/products" >
+            <li className="header__menu">Products</li>
           </Link>
-        </div>
+        </ul>
         <div className="logo">
           <img src={logo} className="header-logo" alt="header logo" />
         </div>
-        <div className="header__container-right">
-          <Link to="/cart" className="header__menu">
-            Cart
+        <ul className="header__container-right">
+          <Link to="/cart" >
+            <li className="header__menu">Cart</li>
           </Link>
           <Link to="/checkout" className="header__menu">
-            Checkout
+            <li className="header__menu">Checkout</li>
           </Link>
-        </div>
-      </div>
+        </ul>
+      </nav>
     </header>
   );
 }

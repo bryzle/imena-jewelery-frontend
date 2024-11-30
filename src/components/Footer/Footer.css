@@ -1,3 +1,5 @@
+
+
 .Footer__section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -18,7 +20,7 @@
   width: 100%;
 }
 
-.Footer__header {
+.Footer__title {
   margin: 0;
   padding: 0;
   font-size: 20px;

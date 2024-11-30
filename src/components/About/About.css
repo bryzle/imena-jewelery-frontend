@@ -1,4 +1,4 @@
-.main__page {
+.about__page {
   width: 100%;
   max-width: 100vw;
   padding: 70px 30px;
@@ -8,27 +8,21 @@
   flex-direction: column;
 }
 
-.main__media {
-  width: 100%;
-  height: 80%;
 
-  object-position: center;
-}
-
-.main__text {
+.about__text {
   font-size: 16px;
   color: #212121;
   width: 1000px;
 }
 
-.main__photos_container {
+.about__photos-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   z-index: 1;
 }
 
-.main__photos {
+.about__photos {
   height: 350px;
   width: 350px;
   border-radius: 20px;
