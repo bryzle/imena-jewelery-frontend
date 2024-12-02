@@ -3,7 +3,7 @@ const baseUrl = "https://api.stripe.com/v1/prices"
 function _checkResponse(res) {
     if (res.ok) {
       return res.json();
-      console.log(res.json());
+     
     }
     return Promise.reject(`Error: ${res.status}`);
   }
@@ -17,6 +17,8 @@ const getProducts = async () => {
     })
     
     .then(_checkResponse)
+    .catch((err) =>{console.error("Error Fetching Products:",err)}
+    )
 
   };
 

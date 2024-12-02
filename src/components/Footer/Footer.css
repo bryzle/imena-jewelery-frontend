@@ -4,7 +4,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  width: 1150px;
+  width: 100%;
+  gap:0;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
   background-color: #212121;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -29,5 +33,41 @@
 .Footer__text {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+@media(max-width:1024px){
+  .Footer__section{
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width:768px){
+  .Footer__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    width: 100%;
+  }
+  .Footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin:0;
+    padding:0;
+  }
+  .Footer__title {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  .Footer__text {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
 }
