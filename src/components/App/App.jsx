@@ -1,8 +1,6 @@
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
-import { useState } from "react";
 import Header from "../Header/Header.jsx";
-import Main from "../Main/Main.jsx";
 import Products from "../Products/Products.jsx";
 import Cart from "../Cart/Cart.jsx";
 import Checkout from "../Checkout/Checkout.jsx";
