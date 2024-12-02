@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && scp -r ./dist/* brandon_lum17@wtwr.brandonlum.com:/home/brandon_lum17/final-project-frontend"
+    "deploy": "npm run build && scp -r ./dist/* brandon_lum17@imenajewelry.brandonlum.com:/home/brandon_lum17/final-project-frontend"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^3.0.0",
