@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f7f7f7; /* Optional background color */
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh; /* Ensure it spans the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  background-color: #fff; /* Background of the page */
+}
+
+.page__content {
+  width: 100%;
+  margin: 0 auto; 
+  padding:0;
+  display: flex;
+  flex-direction: column;
+}
